@@ -1,0 +1,187 @@
+body {
+  background-image: url(background-img.gif);
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  margin-left: 2rem;
+  overflow-x: hidden;
+}
+
+
+nav {
+  display: flex;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height:80px;
+  max-width: max-content;
+  border-radius:25px; 
+  align-items: center;
+  font-size: 20px;
+  justify-content:flex-end
+}
+nav a {
+  color:#E1EBEE;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+ right: 0;
+}
+
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.span-1{
+  color:white;
+}
+.span-2{
+  color:#CCCCCC;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+
+    width: calc(26ch + 2px);
+}}
+
+.header-1 {
+  color:#007FFF;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #13274F;
+  animation: typing 3s steps(40, end)forwards;
+  font-family: "Monoton", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.header-2,.header-3{ 
+  text-align: center;
+  color:#007FFF;
+  margin-bottom: 80px;
+}
+.div-1{
+  display: flex;
+  align-items: center;
+  
+}
+.profile-img
+{
+  height: 300px;
+  width: 300px;
+  border-image: round;
+}
+.mini-div-1{
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size:25px;
+  color: white;
+  font-family:"Alegreya SC", serif;
+  line-height: 2;
+  width: 60%;
+  border-radius: 25px;
+  max-width: max-content;
+}
+/*
+.img-6{
+height:300px;
+border-radius: 100px;
+padding: 90px;
+}*/
+
+.bulleted-list, .header-4 {
+  color: white;
+  font-family: "Alegreya SC", serif;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.footer {
+
+  display: flex;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height:100px;
+  border-radius: 25px; 
+  align-items: center;
+  font-size: 15px;
+  justify-content: center
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  right: 0;
+  font-size: 20px;
+}
+
+.footer-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+.title
+{
+  color: white;
+  background-color:pink
+}
+
+
+
+.div-3 
+{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+  align-items: center;
+ justify-content: space-around;
+ width: 20%;
+ height: 50px;
+  background-color: #E1EBEE;
+  border-radius: 25px;
+}
+
+
+
+.fb-img{
+  height: 30px;
+  border-radius: 25px;
+}
+.github-img
+{
+  height: 30px;
+  border-radius: 25px;
+}
+
+.instagram-img
+{
+  height: 30px;
+  border-radius: 25px;
+}
+.links{
+  color: white;
+  font-family: "Monoton", sans-serif;
+}
+@media only screen and (max-width: 600px){
+  nav {
+    flex-direction: column;
+}
+}
