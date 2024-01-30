@@ -207,7 +207,7 @@ padding: 90px;
   display: flex;
  flex-wrap: wrap;
  text-align: center;
-  font-size: 28px;
+  font-size: 27px;
   width: 100%;
   max-width: max-content;
   
@@ -233,4 +233,9 @@ padding: 90px;
   border-radius: 25px;
  }
 }
-
+@media only screen and (max-width: 352px)
+{
+  .header-1{
+    font-size: 25px;
+  }
+}
