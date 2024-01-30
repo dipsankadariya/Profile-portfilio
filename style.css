@@ -1,7 +1,8 @@
 body {
-  background-image: url(background-img.gif);
+  background-image: url(background-img.jpg);
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   margin-left: 2rem;
+  margin-right: 2rem ;
   overflow-x: hidden;
 }
 
@@ -65,7 +66,6 @@ nav a:hover {
 
 
 .header-2,.header-3{ 
-  text-align: center;
   color:#007FFF;
   margin-bottom: 80px;
 }
@@ -180,8 +180,57 @@ padding: 90px;
   color: white;
   font-family: "Monoton", sans-serif;
 }
-@media only screen and (max-width: 600px){
-  nav {
+@media only screen and (max-width: 768px){
+
+  .Div-1 nav{
+    margin-top:4rem;
+    margin-bottom: 4rem;
+    display: flex;
     flex-direction: column;
+    line-height:1;
+    color: white;
+    align-items:start ;
+    font-size: 20px;
+    max-width:fit-content;
+    justify-content: space-around;
+  }
+ @keyframes typing {
+  from {
+    width:0;
+  }
+  to {
+
+    width: calc(26ch+2px);
+}}
+
+ .header-1{
+  display: flex;
+ flex-wrap: wrap;
+ text-align: center;
+  font-size: 30px;
+  width: 100%;
+  max-width: max-content;
+  
+ }
+ .span-2{
+  color: white;
+  text-align: start;
+ }
+ .div-1 .mini-div-1,.list-container{
+  justify-content: center;
+  max-width: max-content;
+  width: 100%;
+ }
+ .div-3{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+  align-items: center;
+ justify-content: space-around;
+ width: 50%;
+ height: 50px;
+  background-color: #E1EBEE;
+  border-radius: 25px;
+ }
 }
-}
+
